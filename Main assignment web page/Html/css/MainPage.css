@@ -1,0 +1,145 @@
+html { 
+    height: 100%; 
+}
+
+.wrapper {                      /* Page size */
+    width: 900px; 
+    background-color:  #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.3)
+}
+
+body
+{
+    background-color: green;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+header{                     /* Header sizeing and design */
+    font-size: 50px;
+    background-color: black;
+    color: Black;
+    padding: 15px;
+    margin: 10px;
+    list-style-type: none;
+    background-color: White;
+    border-style: solid;
+    border-color: Black;
+    font-family: fantasy;
+    border-width: 2mm;
+    position: flex;
+    
+    
+}
+
+header a {
+    color: white;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    
+}
+
+
+.Main-page ul { 
+   
+    padding: 2px;
+    list-style-type: none;
+    display: flex;
+    font-family: fantasy;
+    font-size: 30px;
+    
+   
+  
+}
+.Main-page li { 
+    display: inline;
+    float: middle;
+    padding-left: 5px;
+}
+
+.Main-page li a {
+    color: white;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: Black;
+    border-width: 2mm;
+}
+
+.Main-page li a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.Main-page ul a { 
+
+    background-color: red;
+
+}
+
+h1{
+    margin: 10px;
+    display: flex;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+p1{
+    padding: 2px;
+    margin: 8px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+
+}
+
+.Welshflag{         /* Image positioning and height */
+    width: 100px;
+    height: 70px;
+    position:fixed;
+    padding-left: 40px;
+    padding-bottom: 4px;
+
+
+}
+
+
+h2{
+    margin: 10px;
+    display: flex;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+p2{
+    padding: 2px;
+    margin: 8px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+
+}
+
+.Newsaints{
+
+    width: 600px;
+    height: 400px;
+    padding-left: 40px;
+    margin-left:  100px;
+    object-fit: contain;
+    position: flex;
+
+
+}
